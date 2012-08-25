@@ -10,6 +10,16 @@ I had a requirement to interact with the twitch.tv REST API and quickly through 
 
 Please note that this SDK only supports the public endpoints of the Twitch API but support for authenticated endpoints is planned.
 
+Files Included
+--------------
+
+twitch.php - contains the following classes:
+
+* TwitchTV - the main class which provides all of the functionality.
+* TwitchTV_Endpoints - a simple enum which contains all of the endpoints to the various resources on the Twitch API
+
+cacert.pm - Mozilla's CA certificate bundle for SSL Certificate comparison in order to prevent MITM attacks, obtained from: http://curl.haxx.se/docs/caextract.html
+
 Quickstart guide
 ----------------
 
